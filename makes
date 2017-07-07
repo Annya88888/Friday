@@ -1,0 +1,8 @@
+all:
+	g++ 1.cpp 2.cpp 3.cpp 4.cpp -o help
+	
+install:
+	cp friday /usr/bin
+
+uninstall:
+	rm /usr/bin/friday
